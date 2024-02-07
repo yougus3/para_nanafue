@@ -3,5 +3,6 @@
     <style name="Base.Theme.ParaNanafue" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <item name="colorPrimary">@color/red</item>
+        <item name="colorSecondary">@color/white</item>
     </style>
 </resources>
