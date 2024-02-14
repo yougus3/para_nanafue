@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/nana_pistola" />
+
+        <TextView
+            android:id="@+id/tv_girasol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Eeeey, primero ve los otros dos mensajes! Porfis 🤓"
+            android:textAlignment="center"
+            android:layout_marginBottom="32dp"
+            android:textColor="?colorSecondary"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</ScrollView>

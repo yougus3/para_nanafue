@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/gato_huevo_nana" />
+
+        <TextView
+            android:id="@+id/tv_girasol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginBottom="32dp"
+            android:text="El corazón con la primera letra de tu nombre y diminutivo propio representa a mi corazón ♥️ y a quién le pertenece, a quien me hace sentir cosas lindas y quisiera tener el privilegio de ser su compañero sentimental, tal vez ahora mismo, o más tarde o algún día. 👉🏽👈🏽"
+            android:textAlignment="center"
+            android:textColor="?colorSecondary"
+            android:textSize="24sp" />
+    </LinearLayout>
+</ScrollView>

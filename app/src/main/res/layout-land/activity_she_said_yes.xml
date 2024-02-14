@@ -9,37 +9,36 @@
 
     <ImageView
         android:id="@+id/btn_perrito"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnGirasol"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="32dp"
+        android:contentDescription="Osito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnGirasol"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/perrito" />
 
     <ImageView
         android:id="@+id/btnGirasol"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCorazon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_perrito"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:contentDescription="Girasol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCorazon"
+        app:layout_constraintStart_toEndOf="@+id/btn_perrito"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/girasol" />
 
     <ImageView
         android:id="@+id/btnCorazon"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="Corazón"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnGirasol"
+        app:layout_constraintStart_toEndOf="@+id/btnGirasol"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/corazon" />
 </androidx.constraintlayout.widget.ConstraintLayout>

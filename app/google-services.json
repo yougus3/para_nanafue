@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "918311830599",
+    "project_id": "para-nanafue",
+    "storage_bucket": "para-nanafue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918311830599:android:fa64b9d0984c9f8c819d62",
+        "android_client_info": {
+          "package_name": "com.pixelarc.parananafue"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsjJKT5TEaULl45WW3DNFnULZ1exmIygg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

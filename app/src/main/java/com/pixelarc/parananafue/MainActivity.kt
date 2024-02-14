@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun audio(raw: Int) {
+    private fun audio(raw: Int) {
         val mediaPlayer: MediaPlayer? = MediaPlayer.create(this, raw)
         mediaPlayer?.start()
     }

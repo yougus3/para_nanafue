@@ -3,7 +3,7 @@
     <style name="Base.Theme.ParaNanafue" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/red</item>
-        <item name="colorSecondary">@color/red</item>
+        <item name="colorSecondary">@color/black</item>
     </style>
 
     <style name="Theme.ParaNanafue" parent="Base.Theme.ParaNanafue" />
